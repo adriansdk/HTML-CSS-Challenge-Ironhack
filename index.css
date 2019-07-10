@@ -1,0 +1,228 @@
+HTML, body, p, h2, h1, h3 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body a:hover{
+    color:#bf282d;
+}
+
+body button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: #bf282d;
+    height: 30px;
+}
+
+.mainNav{
+    display: inline-block;
+    color: lightgray;
+    text-align: center;
+}
+
+.mainNav p{
+    margin: 5px 20px;
+}
+
+.mainNav a{
+    color: lightgray;
+    font-size: 12px;
+    margin: 5px 20px;
+}
+
+.title{
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+.navItems{
+    float: right;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.navItems li{
+    display: inline-block;  
+    margin: 5px 20px;
+}
+.navItems a{
+    text-decoration: none;
+    color: lightgray;
+}
+header {
+    background-image: url("file:///C:/Users/Jogos/Desktop/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+    height: 400px;
+}
+
+.searchBar{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.headerSearch{
+    height: 55px;
+}
+
+.headerSearch img{
+    margin: 15px 0px 0px 15px;
+    float: left;
+}
+
+.headerSearch input{
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 55%;
+    border: 1px #779FB4 solid;
+    background-color: #1D4E69;
+}
+
+.headerSearch button{
+    padding: 17.5px 20px;
+    margin: 15px 0px;
+    background-color: #1D4E69;
+    border: 1px #779FB4 solid;
+    border-left: 0px;
+}
+
+.headerSearch ul{
+    float: right;
+    display: inline-block;
+}
+
+.login li {
+    display:inline-block;
+    color: lightgray;
+    margin: 0px 30px 0px 15px;
+    height: 50px;
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.login li img{
+    margin: 0;
+    display: inline;
+    float: inherit;
+}
+
+.headerSection h1{
+    color: white;
+    margin: 50px 20% 20px 20%;
+}
+
+.headerSection P{
+    color: lightgray;
+    margin: 0px 50% 20px 20%;
+}
+
+.headerSection button{
+    border-radius: 20px;
+    color: white;
+    border-width: 0px;
+    background-color: orange;
+    margin: 0px auto 20px 20%;
+    padding: 8px 18px;
+}
+
+.collaboration {
+    background-color: #273547;
+    height: 400px;
+    background-image: url("./images/collaboration.svg");
+    background-position: 30% 40%;
+    background-size: 500px auto;
+    background-repeat: no-repeat;
+}
+
+.collaboration h2{
+    margin: 0px 15% 20px 60%;
+    padding-top: 115px;
+    color: white;
+}
+
+.collaboration ul{
+    margin: 0px 5% 20px 60%;
+    color: lightgray;
+    padding: 0px 5px 0px 5px;
+}
+
+.collaboration li{
+    margin: 10px;
+}
+
+.collaboration button{
+    border-radius: 20px;
+    color: white;
+    border-width: 0px;
+    background-color: #bf282d;
+    margin: 0px 20% 20px 60%;
+    padding: 8px 18px;
+}
+
+.collaboration p{
+    margin: 0px 5% 20px 60%;
+    color: lightgray;
+}
+
+.collaboration a{
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    background-color: #1E719C;
+    background-image: url("./images/forklift.svg");
+    height: 400px;
+}
+
+.section h2{
+    margin: 0px 20%;
+    padding: 50px 0px 20px 0px;
+    color: white;
+}
+
+.section p{
+    margin: 0px 50% 0px 20%;
+    padding: 20px 0px;
+    color: lightgray;
+}
+
+.section button{
+    border-radius: 20px;
+    color: white;
+    border-width: 0px;
+    background-color: #32425A;
+    margin: 0px 60% 20px 20%;
+    padding: 8px 18px;
+}
+
+.cards{
+    text-align: center;
+    height: 400px;
+}
+.cards a{
+    color: #bf282d;
+    text-decoration: none;
+}
+
+.cards h2{
+    margin: 50px auto 10px auto;
+}
+
+.card-1, .card-2, .card-3{
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+    margin: 25px 25px;
+}
